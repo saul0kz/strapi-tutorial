@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sala-1",
+      "handler": "sala-1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sala-1",
+      "handler": "sala-1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sala-1",
+      "handler": "sala-1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
