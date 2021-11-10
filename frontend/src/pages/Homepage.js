@@ -23,7 +23,7 @@ export default function Homepage() {
     <div>
       {data?.reviews.map((review) => (
         <div key={review.id} className="review-card">
-          <div className="ratting">{review.rating}</div>
+          <div className="rating">{review.rating}</div>
           <h2>{review.title}</h2>
           <small>console list</small>
           <p>{review.body.substring(0,200)}...</p>
