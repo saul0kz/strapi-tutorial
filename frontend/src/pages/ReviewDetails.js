@@ -10,6 +10,9 @@ const REVIEW = gql`
       body
       rating
       id
+      categories {
+        name
+      }
     }
   }
 `;
